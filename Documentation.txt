@@ -1,7 +1,7 @@
   
 Full Name: Hiten Soni
-College:Arya College of Engineering and I.T.
-Stream:B.tech in Computer Science and Engineering
-Current year:3rd  
-Year of Admission:2017  
-Expected passout year:2021
+College: Arya College of Engineering and I.T.
+Stream: B.tech in Computer Science and Engineering
+Current year: 3rd  
+Year of Admission: 2017  
+Expected passout year: 2021
