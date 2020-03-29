@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: "open sans", helvetica, arial, sans;
+ background-color: rgba(54, 54, 54, 0.3);
 }
 .logo{
   width: 100px;

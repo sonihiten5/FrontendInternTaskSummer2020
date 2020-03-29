@@ -1,0 +1,126 @@
+<!-- THE BOILERPLATE SHOULD NOT BE REMOVED -->
+<!-- Proper naming convention should be used while naming id attributes. -->
+<!-- ADDING A SUCCESS PAGE FOR THE SAME WILL BOOST YOUR CHANCES -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="/particle/particle.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="main.js"></script>
+</head>
+<body>
+  <section class="header">
+  
+    <div id="particles-js"></div>
+    <div class="incubate">
+      <img src="/images/4.png" alt="">
+    </div>
+
+ <div class="log-form">
+        <div class="row">
+          <div class="col left">
+              <div class="btn-box">
+               <div id="changebtn"> </div>
+                  <button type="button" class="login-btn" id="clr1"onclick="login()" style="color: #fff;">LOGIN</button>
+                   <button type="button" class="login-btn" id="clr2" onclick="register()" style="color: #584d6b;">REGISTER</button>
+              </div>
+      <div class="social-icons" style="text-align: center;">
+        <img src="/images/gmail1.png" alt="">
+        <img src="/images/linkedin.png" alt="">
+        <img src="/images/facebook1.png" alt="">
+        
+      </div>
+        
+        <form id="login" class="input-group">
+          <input type="text" class="input-field" id="user" title="username" placeholder="Username" required />
+         
+          <input type="password" class="input-field" id="pass" title="password" placeholder="Password" required/>
+          
+     
+        
+          <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+
+
+        <form id="register" class="input-group" style="margin-top: -170px;">
+      <input type="text" class="input-field"  id="user" title="username" placeholder="Username" required/>
+      <input type="email" class="input-field" id="email" title="email" placeholder="Email" required>
+      <input type="password" class="input-field" id="pass" title="password" placeholder="Password" required/>
+      <input type="password" class="input-field" id="pass" title="cnfpassword" placeholder="Confirm Password" required/>
+
+      <input type="tel" class="input-field" id="num" name="phone-number" placeholder="+91-8619***762" pattern="[+]{1}[91]{2}-[1-9]{1}[0-9]{9}" required>
+      
+       <div>
+         <br>
+        <input type="radio" id="above" name="age" value="above">
+        <label for="above">Above 18</label>
+        <input type="radio" id="below" name="age" value="below">
+        <label for="below">Below 18</label>
+      </div>
+     
+      
+
+
+      <button type="submit" class="submit-btn">SUMBIT</button>
+      
+        </form>
+        </div>
+      <div class="col right">
+          <!-- <img src="/images/kindpng_1.png" alt=""> -->
+            
+
+      </div>
+        </div>
+  </div>
+
+       
+     
+ </div>
+  <!-- Beautify This -->
+
+  </section>
+
+  <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("changebtn");
+
+    function register()
+    {
+      x.style.left="-1000px";
+      document.getElementById("clr1").style.color="#584d6b";
+      document.getElementById("clr2").style.color="white";
+      y.style.left="50px";
+      z.style.left="130px";
+      
+      
+    }
+
+    function login()
+    {
+      x.style.left="50px";
+      document.getElementById("clr1").style.color="white";
+      document.getElementById("clr2").style.color="#584d6b";
+      y.style.left="1000px";
+      z.style.left="0";
+      
+    }
+  </script>
+ <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+ <script src="/particle/particle.js"></script>
+
+ <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+         </script> 
+         <script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"> 
+         </script> 
+         <script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> 
+         </script> 
+  <!-- Beautify Ends -->
+</body>
+</html>

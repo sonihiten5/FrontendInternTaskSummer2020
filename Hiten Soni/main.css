@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma Verdana, sans-serif;
+}
+
+body {
+  font-family: "open sans", helvetica, arial, sans-serif;
+  background-image: url(/images/back_view_on_snow_mountain.gif);
+  background-size: cover;
+ background-color: rgba(54, 54, 54, 0.3);
+}
+.logo{
+ 
+  
+  width: 100px;
+ 
+}
+.log-form {
+ 
+  height: auto;
+  width: 100%;
+  min-width: 320px;
+  max-width: 800px;
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background-image: url(/images/LW002.jpg);
+  
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+zz}
+
+
+h2 {
+  text-align: center;
+}
+.log-form {
+  padding: 2em;
+  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+}
+
+form {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+/* ========================WRITE YOUR CSS FROM HERE======================== */
+.btn-box
+{ 
+  text-align: center;
+  width: 260px;
+  margin: 35px  auto;
+  margin-top: 50px;
+  position: relative;
+  box-shadow: 0 0 20px 9px #c2b9d1;
+  border-radius: 30px;
+  
+}
+
+
+
+.login-btn
+{ 
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-weight: 500;
+  
+}
+
+
+#changebtn
+{
+ top: 0;
+ left: 0;
+ position: absolute;
+ width: 130px;
+ height: 100%;
+ background: linear-gradient(to right,#584d6b,#9584cc);
+ border-radius: 30px;
+ transition: 0.5s;
+}
+
+.social-icons img
+{ 
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  box-shadow: 0 0 20px 0 #9584cc;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.social-icons img:hover
+{ 
+  width: 50px;
+  height: 50px;
+  margin: 0 15px;
+  box-shadow: 0 0 20px 0 #9584cc;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.input-group
+{
+  margin-left: 40px;
+  top: 20px;
+  position: absolute;
+  width: 250px;
+  transition: 0.5s;
+}
+
+.input-field
+{ 
+  
+  width: 60%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #584d6b;
+  outline: none;
+  background: transparent;
+}
+
+.submit-btn
+{
+  width: 50%;
+  padding: 10px 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px ;
+  background: linear-gradient(to right,#584d6b,#9584cc);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.check-box
+{ 
+  
+  margin: 30px 10px 30px 0;
+}
+span{
+  color: #584d6b;
+  bottom: 68px;
+  position: absolute;
+}
+
+#login
+{
+  left: 50px;
+}
+#register
+{
+  left: 1000px;
+}
+
+#user
+{ 
+  text-align: center;
+  background-image: url(/images/Users-Name-icon.png);
+  background-size: 15px;
+  background-position: left;
+  background-repeat: no-repeat;
+  
+  border-radius: 5px;
+
+}
+#pass
+{
+  text-align: center;
+  background-image: url(/images/how-to-change-png-to-icon-format-4.png);
+  background-size: 13px;
+  background-position: left;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+
+}
+#num
+{
+  text-align: center;
+  background-image: url(/images/iconfinder_phone_326545.png);
+  background-size: 13px;
+  background-position: left;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+#email
+{
+  text-align: center;
+  background-image: url(/images/icon-email-512.png);
+  background-size: 20px;
+  background-position: left;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+.left
+{
+  margin-top: -40px;
+  margin-left: -20px;
+  margin-bottom:-40px ;
+  height: 600px;
+  background:transparent;
+
+
+}
+.right
+{
+  margin-top: 10%;
+  margin-right: -20px;
+  margin-bottom:-40px ;
+ 
+  height: 320px;
+  background-image: url(/images/kindpng_1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-shadow: rgba(54, 54, 54, 0.3);
+
+}
+@media screen and (max-width:620px)
+{
+  .right
+  {
+    display: none;
+  }
+}
+
+.incubate img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20%;
+  width: 20%;
+}
